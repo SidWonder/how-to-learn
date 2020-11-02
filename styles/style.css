@@ -29,20 +29,20 @@
   align-items: center;
   z-index: 1;
 }
-.infographic__title {
+.section-title {
   text-align: center;
   width: 60%;
   margin: 0;
   line-height: 1.15;
-  font-size: 34px;
+  font-size: 60px;
   font-weight: bold;
 }
 
-.infographic__title_theme_white {
+.section-title_theme_white {
   margin-top: 100px;
 }
 
-.infographic__subtitle {
+.section-subtitle {
   text-align: center;
   width: 60%;
   margin-top: 20px;
@@ -51,7 +51,7 @@
   font-weight: normal;
 }
 
-.infographic__table {
+.table {
   display: flex;
   flex-wrap: wrap;
   width: 1100px;
@@ -85,12 +85,11 @@
   font-weight: normal;
 }
 
-.header__logo_color_light {
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
   z-index: 1;
-  background-image: url("../images/logo_place_header.svg");
 }
 
 .header {
@@ -147,6 +146,7 @@
 
 .header__link {
 text-decoration: none;
+  color: #2f80ed;
 }
 
 .description {
@@ -166,6 +166,7 @@ text-decoration: none;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -176,12 +177,13 @@ text-decoration: none;
 }
 
 .two-columns__paragraph {
-  margin-bottom: 30px;
+  margin: 0 0 30px 0;
+  /*margin-bottom: 30px;*/
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
-.paragraph__span-accent {
+.two-columns__span-accent {
   font-weight: bold;
 }
 .two-columns__paragraph:last-child{
@@ -209,6 +211,7 @@ text-decoration: none;
   background-size: 867px 637px;
   background-repeat: no-repeat;
   background-position: bottom 0 left 0;
+  background-color: #f2f2f2;
 
 }
 .feynman__title {
@@ -235,12 +238,13 @@ text-decoration: none;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  color: #2f80ed;
 }
 
 .kaufman {
   height: 977px;
   position: relative;
-  background-color: black;
+  background-color: #1f1f1f;
   z-index: 0;
 }
 
