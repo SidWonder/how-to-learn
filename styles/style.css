@@ -305,10 +305,9 @@ text-decoration: none;
   font-weight:normal;
   text-align: left;
   padding: 20px 0 16px 0;
-}
-.footer__column-links {
   margin-top: 10px;
 }
+
 .footer__column-links:last-child {
   margin-top: 0;
 }
