@@ -9,10 +9,10 @@
   <title>Научиться учиться</title>
 </head>
 
-<body>
+<body class="root">
 <div class="page">
   <header class="header">
-    <img src="./images/logo_place_header.svg" alt="Яндекс-Практикум" class="logo logo_place-header">
+    <img src="./images/logos/logo_place_header.svg" alt="Яндекс-Практикум" class="logo logo_place-header">
     <h1 class="header__title">Научиться учиться</h1>
     <p class="header__subtitle">
       Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a
@@ -46,25 +46,25 @@
       <p class="section-subtitle section-subtitle_theme_white">Пять практик от Барбары Оакли</p>
       <div class="cards">
         <div class="cards__item">
-          <img class="cards__image" src="images/cards-attention.png" alt="attention.png">
+          <img class="cards__image" src="images/cards/cards-attention.png" alt="attention.png">
           <div class="cards__title">Два вида внимания</div>
           <div class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное
             мышление.
           </div>
         </div>
         <div class="cards__item">
-          <img class="cards__image" src="images/cards-recall.png" alt="recall.png">
+          <img class="cards__image" src="images/cards/cards-recall.png" alt="recall.png">
           <div class="cards__title">Recall</div>
           <div class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.
           </div>
         </div>
         <div class="cards__item">
-          <img class="cards__image" src="images/cards-interliving.png" alt="interliving.png">
+          <img class="cards__image" src="images/cards/cards-interliving.png" alt="interliving.png">
           <div class="cards__title">Интерливинг</div>
           <div class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</div>
         </div>
         <div class="cards__item">
-          <img class="cards__image" src="images/cards-question.png" alt="question.png">
+          <img class="cards__image" src="images/cards/cards-question.png" alt="question.png">
           <div class="cards__title">Вопросы</div>
           <div class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно
             волнует.
@@ -97,19 +97,9 @@
     </section>
     <section class="oakley">
       <div class="two-columns">
-        <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
+        <h2 class="two-columns__brief">История Барбары Оакли</h2>
         <div class="two-columns__main-text">
-          <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать
-            материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше
-            сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит
-            пользы.
-          </p>
-          <p class="two-columns__paragraph"><span class="two-columns__span-accent">Вывод: </span>учиться тоже нужно
-            уметь, но почему-то этому мало где учат. Что с
-            этим делать?
-          </p>
-          <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению,
-            сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.
+          <p class="two-columns__paragraph">С детства Барбаре не давалась математика. Она считала себя законченным гуманитарием, причём далеко не самым умным. В армии она изучала русский язык, чтобы получить надбавку, да так успешно, что её выдвинули в командиры. Но для продвижения по службе нужно было сдавать математику. И тогда Барбара придумала свой подход к точным наукам. Оказалось, если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.
           </p>
         </div>
       </div>
@@ -177,7 +167,7 @@
         <div class="khan__quote-author-subline">Кинорежиссер, продюсер</div>
         <div class="khan__book-container">
           <div class="khan__book-pic"></div>
-          <div class="khan__buy-link">Купить книгу</div>
+          <a class="khan__buy-link">Купить книгу &#8594;</a>
 
         </div>
       </div>
@@ -230,13 +220,23 @@
       </div>
       <div class="kaufman__triangle"></div>
     </section>
+    <section class="resources">
+      <h2 class="section-title section-title_theme_white">Полезные ресурсы</h2>
+      <p class="section-subtitle section-subtitle_theme_white">Больше материалов о техниках и лайфхаках обучения</p>
+      <div class="logo__zone">
+        <img class="resources__logo" src="images/logos/resources-arzamas.svg" alt="arzamas">
+        <img class="resources__logo" src="images/logos/resources-n1.svg" alt="n1">
+        <img class="resources__logo" src="images/logos/resources-strelka.svg" alt="strelka">
+        <img class="resources__logo" src="images/logos/resources-polka.svg" alt="polka">
+      </div>
+    </section>
 
 
   </main>
   <footer class="footer">
     <div class="footer__columns">
       <div class="footer__column footer__column_content_copyright">
-        <img src="./images/logo_place_footer.svg" alt="Яндекс-Практикум" class="logo logo_place-footer">
+        <img src="./images/logos/logo_place_footer.svg" alt="Яндекс-Практикум" class="logo logo_place-footer">
         <p class="footer__author">&copy; 2019. Виктор Абанькин </p>
       </div>
       <div class="footer__column footer__column_content_info">
@@ -255,13 +255,13 @@
           <ul class="footer__column-links">
             <li class="footer__column-link">
               <a href="#" class="footer__link">
-                <img src='./images/facebook_color_white.svg' alt="Фейсбук-иконка" class="footer__social-icon">
+                <img src='./images/icons/facebook_color_white.svg' alt="Фейсбук-иконка" class="footer__social-icon">
                 Facebook</a></li>
             <li class="footer__column-link"><a href="#" class="footer__link">
-              <img src='./images/vk_color_white.svg' alt='ВК-иконка' class="footer__social-icon">
+              <img src='./images/icons/vk_color_white.svg' alt='ВК-иконка' class="footer__social-icon">
               Вконтакте</a></li>
             <li class="footer__column-link"><a href="#" class="footer__link">
-              <img src='./images/instagram_color_white.svg' alt="Инстаграм-иконка" class="footer__social-icon">
+              <img src='./images/icons/instagram_color_white.svg' alt="Инстаграм-иконка" class="footer__social-icon">
               Instagram</a></li>
           </ul>
         </nav>

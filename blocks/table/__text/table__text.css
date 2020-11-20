@@ -1,0 +1,10 @@
+.table__text {
+  margin-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table__cell .table__text:nth-child(3) {
+  margin-top: 20px;
+}
