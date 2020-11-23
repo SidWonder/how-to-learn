@@ -21,10 +21,8 @@
 @import "../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css";
 
 @import "../blocks/table/table.css";
-/*@import "table/__cell/table__cell.css";*/
 @import "../blocks/table/__cell/table__cell.css";
 @import "../blocks/table/__cell/_theme/table__cell_theme_dark.css";
-/*@import "table/__cell/_theme/table__cell_theme_white.css";*/
 @import "../blocks/table/__heading/table__heading.css";
 @import "../blocks/table/__text/table__text.css";
 
